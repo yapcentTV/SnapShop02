@@ -637,7 +637,7 @@ margin: 0 10px;
 }
 
 input:checked + label {
-  width: 610px;
+  width: 670px;
 }
 
 input:checked + label .description {
@@ -648,7 +648,7 @@ input:checked + label .description {
 .cards[for="c1"] {
   background-image: url(../Pic/1.jpg);
   background-position: center;
-  background-size: 610px 500px;
+  background-size: 670px 520px;
   filter: contrast(1.2);
   filter: saturate(1);
 
@@ -656,42 +656,42 @@ input:checked + label .description {
 .cards[for="c2"] {
   background-image: url(../Pic/2.jpg);
   background-position: center;
-  background-size: 610px 500px;
+  background-size: 670px 520px;
   filter: contrast(1.2);
   filter: saturate(1);
 }
 .cards[for="c3"] {
   background-image: url(../Pic/3.jpg);
   background-position: center;
-  background-size: 610px 500px;
+  background-size: 670px 520px;
   filter: contrast(1.2);
   filter: saturate(1);
 }
 .cards[for="c4"] {
   background-image: url(../Pic/4.jpg);
   background-position: center;
-  background-size: 610px 500px;
+  background-size: 670px 520px;
   filter: contrast(1.2);
   filter: saturate(1);
 }
 .cards[for="c5"] {
   background-image: url(../Pic/11.jpg);
   background-position: center;
-  background-size: 650px 500px;
+  background-size: 670px 520px;
   filter: contrast(1.2);
   filter: saturate(1);
 }
 .cards[for="c6"] {
   background-image: url(../Pic/8.jpg);
   background-position: center;
-  background-size: 610px 500px;
+  background-size: 670px 520px;
   filter: contrast(1.2);
   filter: saturate(1);
 }
 .cards[for="c7"] {
   background-image: url(../Pic/7.jpg);
   background-position: center;
-  background-size: 610px 500px;
+  background-size: 670px 520px;
   filter: contrast(1.2);
   filter: saturate(1);
 }
