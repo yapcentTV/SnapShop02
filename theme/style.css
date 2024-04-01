@@ -6,7 +6,7 @@
   
   body{
       background-color: var(--primary-color);
-      font-family: "Poppins", sans-serif;
+      font-family: "Roboto", sans-serif;
       max-height: 340vh;
       max-width: 100%;
   }
