@@ -418,7 +418,7 @@ input:checked + .slide-container .nav label {
 }
 
 .container{
-  margin-top: 20%;
+  margin-top: -8%;
   width: 95%;
   transition: 0.5s;
 }
@@ -558,7 +558,7 @@ margin: 0 10px;
 }
 
 .board {
-  padding-top: 83%;
+  margin-top: 57%;
   width: 100%;
   height: 100vh;
   display: flex;
