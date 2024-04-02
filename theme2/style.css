@@ -65,7 +65,7 @@
  }
  
  .pic{
-     margin-top: 5px;
+     margin-top: 10px;
      display: flex;
      z-index: 10;
      filter: contrast(2);
