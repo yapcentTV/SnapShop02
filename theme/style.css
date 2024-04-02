@@ -181,8 +181,8 @@
     display: flex;
     width: 17vw;
     height: 65vh;
-    filter: contrast(1);
-    filter: saturate(2);
+    filter: contrast(1.2);
+    filter: saturate(1);
   }
   
   .txt{
