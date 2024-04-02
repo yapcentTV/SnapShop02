@@ -30,7 +30,7 @@
     filter: saturate(1);
    }
  
-   .banner{
+.banner{
      background-image: url(../Img/ner.jpg);
      background-position: center;
      background-size: cover;
@@ -55,7 +55,7 @@
  }
  
  .pic{
-     margin-top: 5px;
+     margin-top: 10px;
      display: flex;
      z-index: 10;
      filter: contrast(2);
@@ -172,8 +172,8 @@
     width: 17vw;
     height: 74vh;
     border-radius: 20px;
-    box-shadow: 5px 3px 3px 3px;
-    color: rgb(221, 101, 53);
+    box-shadow: 3px 3px 3px 3px;
+    color: var(--secondary-color);
   }
   
   .ment{
@@ -228,7 +228,7 @@
 }
 
 .slide {
-    top: 7.5vh;
+    top: 8vh;
     left: 22vw;
     opacity: 0;
     display: flex;
@@ -290,7 +290,7 @@ input:checked + .slide-container .nav label {
   background-size: cover;
   background-image: url(../Img/ocean.jpg);
   background-attachment: fixed;
-  font-family: "Permanent Marker", sans-serif;
+  font-family: "Russo One", sans-serif;
   font-size: 5rem;
   font-weight: bolder;
   text-align:center;
@@ -298,14 +298,14 @@ input:checked + .slide-container .nav label {
   width:100%;
   display: inline-block;
   position: absolute;
-  text-shadow: 5px 5px var(--primary-color);
+  text-shadow: 5px 5px var(--secondary-color);
   color: wheat;
   top: 120%;
   bottom:0;
   left:0;
   right:0;
   letter-spacing: 10px;
-  padding-top: 2.5%;
+  padding-top: 3.5%;
   margin: auto;
 }
 .console-underscore {
@@ -547,7 +547,7 @@ margin: 0 10px;
 }
 
 .description h4 {
-  font-family: "Concert One", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   letter-spacing: 2px;
   text-transform: uppercase;
