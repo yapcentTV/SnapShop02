@@ -150,7 +150,9 @@
  .navbar i{
      color: goldenrod;
  }
- 
+ .navbar i:hover{
+  color: darkblue;
+}
  .banner{
      position: relative;
      box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 10px rgba(0,0,0,0.1) insert;
