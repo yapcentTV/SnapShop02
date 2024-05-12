@@ -55,6 +55,7 @@ body{
 
 .container button a{
     color:whitesmoke;
+    background: linear-gradient(to left, #A79277, #A67B5B);
 }
 
 .container button {
