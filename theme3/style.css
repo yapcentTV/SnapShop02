@@ -177,17 +177,19 @@ nav .right-links i:hover{
 
    .hero{
     width: 100%;
-    height: 85vh;
+    height: 87vh;
     display: flex;
     align-items: center;
-    padding-left: 5%;
+    padding-left: 8%;
     justify-content: left;
  }
 
  .prof{
    width: 400px;
    background: whitesmoke;
-   padding: 40px;
+   box-shadow: 5px 10px black;
+   border: 1px outset black;
+   padding: 20px;
    border-radius: 15px;
    text-align: center;
    color: black;
@@ -218,5 +220,33 @@ nav .right-links i:hover{
 
  .hero .prof input{
    display: none;
+ }
+
+ .info{
+  top: 125px;
+  left: 550px;
+  position: absolute;
+  display: flex;
+ }
+
+ .box{
+  width: 700px;
+  height: 505px;
+  background: whitesmoke;
+  box-shadow: 5px 10px black;
+  border: 1px outset black;
+  border-radius: 15px;
+  text-indent: 20px;
+  text-align: left;
+  color: black;
+}
+
+ .box h2{
+  font-size: 2rem;
+  font-weight: bolder;
+ }
+ .box hr{
+  height: 5px;
+  background-color: black;
  }
  
