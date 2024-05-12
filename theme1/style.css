@@ -15,9 +15,8 @@ body{
 }
 
 #mytitle {
-    font-family: "Poppins", sans-serif;
-    font-size: 30pt;
-    font-weight: bold;
+    font-family: "Rukola", sans-serif;
+    font-size: 40pt;
 }
 
 #greet {
@@ -54,8 +53,12 @@ body{
     margin: 15px 0 10px;
 }
 
-.container button{
-    background-color: darkgoldenrod;
+.container button a{
+    color:whitesmoke;
+}
+
+.container button {
+    background: linear-gradient(to left, #A79277, #A67B5B);
     color: #fff;
     font-size: 14px;
     padding: 10px 45px;
@@ -169,9 +172,8 @@ body{
 }
 
 .toggle{
-    background-color: goldenrod;
     height: 100%;
-    background: linear-gradient(to left, #ad672e, #a2aa31);
+    background: linear-gradient(to left, #A79277, #A67B5B);
     color: whitesmoke;
     position: relative;
     left: -100%;
