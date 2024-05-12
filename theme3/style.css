@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: #d7d8da;
+      font-family: "Poppins", sans-serif;
+  }
+
+  .im{
+    display: fixed;
+    position: absolute;
+    top: 92vh;
+    right: 1%;
+  }
+
+  .im{
+    display: fixed;
+    position: absolute;
+    top: 92vh;
+    right: 1%;
+  }
+
+  .nt{
+    max-width: 15vw;
+    height: 5vh;
+  }
+ 
+   .banner{
+     background-color: aliceblue;
+     display: flex;
+     position: fixed;
+     top: 0%;
+     width: 100%;
+     height: 80px;
+ }
+ 
+ .head{
+     padding-top: 0px;
+     margin-top: 0px;
+     position: absolute;
+     top: 0;
+     left:0;
+     width: 100%;
+     padding: 0px 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100;
+ }
+ 
+ .pic{
+     margin-top: 2px;
+     display: flex;
+     z-index: 10;
+     filter: contrast(2);
+     filter: saturate(3);
+     cursor: pointer;
+     width: 5vw;
+     height: 10.5vh;
+ }
+ 
+ .search {
+     display: flex;
+     margin-left: 60px;
+     position: absolute;
+     align-items: center;
+     background-color: black;
+     color: snow;
+     padding: 7px;
+     border-radius: 50px;
+     z-index: 10;
+   }
+   .search :is(input, button) {
+     background: transparent;
+     color: snow;
+     font-size: 1rem;
+     border: none;
+     outline: none;
+   }
+   .search__input {
+     width: 0;
+     transition: width 0.5s;
+   }
+   .search__button {
+     display: grid;
+     place-items: center;
+     width: 2vw;
+     height: 2.5vh;
+     cursor: pointer;
+     transition: color 0.25s;
+   }
+   .search__button:hover {
+     color: rgb(163, 162, 162);
+   }
+   .search:focus-within input {
+     width: 17vw;
+   }
+   ::placeholder {
+     font-size: .9rem;
+     font-family: "Poppins", sans-serif;
+     color: snow;
+   }
+ 
+   nav {
+    align-items: center;
+    display: flex;
+    position: relative;
+ }
+
+ nav .left-links a{
+     position: relative;
+     font-size: 1.2rem;
+     color: black;
+     font-family: "Overlock", sans-serif;
+     font-weight: 700;
+     text-decoration: none;
+     margin-right: 20px;
+ }
+
+ nav .left-links a:hover{
+     color: orangered;
+ }
+ 
+ nav .left-links a::before{
+    margin-bottom: 2px;
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, snow, orangered);
+    transition: .3s;
+ }
+ 
+ nav .left-links a:hover::before{
+    width: 100%;
+ }
+ 
+ nav .left-links i{
+    font-size: 1.4rem;
+    color: goldenrod;
+ }
+
+ nav .left-links i:hover{
+  color: darkblue;
+}
+
+nav .right-links i{
+  margin-left: 20px;
+  font-size: 2rem;
+  color: brown;
+}
+
+nav .right-links i:hover{
+  color: black;
+}
+
+ .banner{
+     position: relative;
+     box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 10px rgba(0,0,0,0.1) insert;
+   }
+   .banner:before,
+   .banner:after{
+     content:'';
+     position: absolute;
+     z-index:-1; 
+     box-shadow: 0 0 5px black;
+     top: 0%;
+     bottom: 0%;
+     left: 0%;
+     right: 0%;
+   }
+
+   .hero{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    justify-content: left;
+ }
+
+ .prof{
+   width: 400px;
+   background: whitesmoke;
+   padding: 40px;
+   border-radius: 15px;
+   text-align: center;
+   color: black;
+ }
+
+ .prof h1{
+   font-weight: 500;
+ }
+
+ .prof img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   margin-top: 40px;
+   margin-bottom: 30px;
+ }
+
+ label{
+   display: block;
+   width: 200px;
+   background: brown;
+   color:#fff;
+   padding: 12px;
+   margin: 10px auto;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ .hero .prof input{
+   display: none;
+ }
+ 
