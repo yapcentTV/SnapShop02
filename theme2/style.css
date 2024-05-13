@@ -16,13 +16,6 @@
     right: 1%;
   }
 
-  .im{
-    display: fixed;
-    position: absolute;
-    top: 92vh;
-    right: 1%;
-  }
-
   .nt{
     max-width: 15vw;
     height: 5vh;
@@ -150,13 +143,22 @@
 }
 
 nav .right-links i{
-  margin-left: 20px;
   font-size: 2rem;
   color: brown;
 }
 
+.color-change:visited i{
+  font-size: 2rem;
+  color: darkcyan;
+}
+
+
 nav .right-links i:hover{
   color: black;
+}
+
+nav .right-links a{
+  margin-left: 30px;
 }
 
  .banner{
