@@ -132,13 +132,21 @@
 }
 
 nav .right-links i{
-  margin-left: 20px;
   font-size: 2rem;
   color: brown;
 }
 
+.color-change:visited i{
+  font-size: 2rem;
+  color: darkcyan;
+}
+
 nav .right-links i:hover{
   color: black;
+}
+
+nav .right-links a{
+  margin-left: 30px;
 }
 
  .banner{
