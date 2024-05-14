@@ -13,18 +13,6 @@
       font-family: "Poppins", sans-serif;
   }
 
-  .im{
-    display: fixed;
-    position: absolute;
-    top: 120vh;
-    right: 1%;
-  }
-
-  .nt{
-    max-width: 15vw;
-    height: 5vh;
-  }
- 
    .banner{
      background-color: aliceblue;
      display: flex;
