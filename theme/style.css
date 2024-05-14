@@ -164,6 +164,7 @@ nav .right-links a{
      left: 0%;
      right: 0%;
    }
+
    .sect {
     top: 21vh;
     left: 3vw;
@@ -179,16 +180,7 @@ nav .right-links a{
     color: var(--secondary-color);
   }
   
-  .ment{
-    border-radius: 0px 0px 20px 20px;
-    display: flex;
-    width: 17vw;
-    height: 65vh;
-    filter: contrast(1.2);
-    filter: saturate(1);
-  }
-  
-  .txt{
+  .sect .box .txt{
     border-radius: 20px 20px 0px 0px;
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
@@ -198,7 +190,60 @@ nav .right-links a{
     font-family: "Impact", sans-serif;
     font-size: 1.5rem;
   }
-  
+  .sect .box .in{
+    background-image: url(../Img/gum.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    width: 17vw;
+    height: 65.5vh;
+    filter: contrast(1.2);
+    filter: saturate(1);
+  }
+
+  .off{
+    top: 6vh;
+    align-items: center;
+    object-fit: contain;
+    height: 20vh;
+    width: 17vw;
+    cursor: pointer;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    position: absolute;
+    filter: contrast(1.2);
+    filter: saturate(1);
+  }
+
+  .ouch{
+    top: 23vh;
+    left: .5vw;
+    cursor: pointer;
+    align-items: center;
+    height: 20vh;
+    width: 16vw;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    filter: contrast(1.2);
+    filter: saturate(1);
+  }
+
+  .ment{
+    top: 45vh;
+    left: .5vw;
+    cursor: pointer;
+    align-items: center;
+    height: 28vh;
+    width: 16vw;
+    border-radius: 25% 10%;
+    display: flex;
+    position: absolute;
+    filter: contrast(1.2);
+    filter: saturate(1);
+  }
+
 .slides {
     display: flex;
     margin: 0 auto;
