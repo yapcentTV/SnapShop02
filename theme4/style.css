@@ -12,18 +12,6 @@
       background-color: #d7d8da;
       font-family: "Poppins", sans-serif;
   }
-
-  .im{
-    display: fixed;
-    position: absolute;
-    top: 93vh;
-    left: 1%;
-  }
-
-  .nt{
-    max-width: 15vw;
-    height: 5vh;
-  }
  
    .banner{
      background-color: aliceblue;
