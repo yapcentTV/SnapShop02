@@ -166,7 +166,7 @@ nav .right-links a{
    }
 
    .sect {
-    top: 21vh;
+    top: 20vh;
     left: 3vw;
     display: flex;
     position: absolute;
@@ -276,7 +276,7 @@ nav .right-links a{
 }
 
 .slide {
-    top: 9.5vh;
+    top: 8vh;
     left: 22vw;
     opacity: 0;
     display: flex;
@@ -288,7 +288,7 @@ nav .right-links a{
 .slide img {
   border-radius: 20px;
   width: 75vw;
-  height: 75vh;
+  height: 75.5vh;
 }
 .nav label {
     justify-content: center;
