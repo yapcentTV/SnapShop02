@@ -145,6 +145,17 @@ nav .right-links i{
   color: darkcyan;
 }
 
+.shopping span{
+  background: red;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  color: snow;
+  cursor: pointer;
+  position: absolute;
+}
+
 nav .right-links i:hover{
   color: black;
 }
@@ -181,7 +192,7 @@ nav .right-links a{
     height: 74.5vh;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px;
-    color: var(--secondary-color);
+    color: black;
   }
   
   .sect .box .txt{
@@ -228,6 +239,8 @@ nav .right-links a{
     height: 20vh;
     width: 16vw;
     border-radius: 20px;
+    box-shadow: 2px 2px;
+    color: darkblue;
     display: flex;
     position: absolute;
     filter: contrast(1.2);
@@ -242,6 +255,8 @@ nav .right-links a{
     height: 28vh;
     width: 16vw;
     border-radius: 25% 10%;
+    box-shadow: 2px 2px;
+    color: darkgoldenrod;
     display: flex;
     position: absolute;
     filter: contrast(1.2);
