@@ -5,6 +5,10 @@
     font-family: 'Candara', sans-serif;
 }
 
+ html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: #d7d8da;
     display: flex;
