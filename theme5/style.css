@@ -240,7 +240,7 @@ nav .right-links a{
   }
   .card:hover .icon-wrapper {
     background-color: #ffffff;
-    color: orangered;
+    color: brown;
   }
   .card:hover h3 {
     color: #ffffff;
