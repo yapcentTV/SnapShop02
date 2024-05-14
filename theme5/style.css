@@ -204,7 +204,7 @@ nav .right-links a{
     background: linear-gradient(#ffffff 50%, orangered 50%);
     background-size: 100% 200%;
     background-position: 0 2.5%;
-    border-radius: 5px;
+    border-radius: 50px 50px 0px 0px;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
     cursor: pointer;
     transition: 0.5s;
