@@ -422,6 +422,129 @@ nav .right-links i:hover{
     }
   }
 
+  .main{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    margin-top: 100px;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul li i{
+    font-size: 3rem;
+    color: var(--secondary-color);
+    margin: 0 60px;
+}
+
+ul li .text{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+/* Progress Div Css  */
+
+ul li .progress{
+    width: 40px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    margin: 15px 0;
+    display: grid;
+    place-items: center;
+    color: var(--primary-color);
+    position: relative;
+    cursor: pointer;
+}
+.progress::after{
+    content: " ";
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    z-index: -1;
+    background-color: var(--secondary-color);
+    right: 30px;
+}
+.one::after{
+    width: 0;
+    height: 0;
+}
+ul li .progress .uil{
+    display: none;
+    margin-left: 5px;
+}
+ul li .progress p{
+    font-size: 1.5rem;
+}
+
+/* Active Css  */
+
+ul li .active{
+    background-color: darkred;
+    display: grid;
+    place-items: center;
+}
+li .active::after{
+    background-color: darkred;
+}
+ul li .active p{
+    display: none;
+}
+ul li .active .uil{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+}
+
+/* Responsive Css  */
+
+@media (max-width: 980px) {
+    ul{
+        flex-direction: column;
+    }
+    ul li{
+        flex-direction: row;
+    }
+    ul li .progress{
+        margin: 0 30px;
+    }
+    .progress::after{
+        width: 5px;
+        height: 55px;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+    .one::after{
+        height: 0;
+    }
+    ul li .icon{
+        margin: 15px 0;
+    }
+}
+
+@media (max-width:600px) {
+    .head .head_1{
+        font-size: 24px;
+    }
+    .head .head_2{
+        font-size: 16px;
+    }
+}
+
   @media screen and (max-width:600px) {
     .full-chat-block {
         width: 100%;
