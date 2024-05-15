@@ -136,11 +136,21 @@
 
 nav .right-links i{
   font-size: 2rem;
-  color: brown;
+}
+
+.carte{
+  display: flex;
+  position: relative;
+  top: 5px;
+  right: 1%;
+}
+
+.tarc{
+  max-width: 15vw;
+  height: 7vh;
 }
 
 .color-change:visited i{
-  font-size: 2rem;
   color: darkcyan;
 }
 
@@ -148,12 +158,12 @@ nav .right-links i{
   color: goldenrod;
 }
 
-nav .right-links .color-drop i:hover{
+.dropdown-content .color-drop i:hover{
   color: darkblue;
 }
 
 .dropdown-content .color-drop i{
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 nav .right-links i:hover{
@@ -183,11 +193,13 @@ nav .right-links i:hover{
 }
 
 .dropdown-content {
-  font-size: .8rem;
+  font-size: 1.2rem;
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 120px;
+  min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
