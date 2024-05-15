@@ -9,10 +9,29 @@
 }
 
   body{
-      background-color: #d7d8da;
+      background-color: var(--primary-color);
       font-family: "Poppins", sans-serif;
   }
  
+  :root{
+    --primary-color:  #edf2fc;
+    --secondary-color:  #212121;
+  }
+  .dark-theme{
+   --primary-color: #000106;
+    --secondary-color:  #fff;
+  }
+  
+  #icon{
+   object-fit: contain;
+   width: 5vw;
+   height: 5vh;
+   display: flex;
+   margin-left: 15px;
+   cursor: pointer;
+   z-index: 1;
+  }
+
    .banner{
      background-color: aliceblue;
      display: flex;
@@ -154,7 +173,7 @@ nav .right-links i{
   color: darkcyan;
 }
 
-.color-drop:visited i{
+nav .color-drop:visited i{
   color: goldenrod;
 }
 
@@ -246,6 +265,7 @@ nav .right-links i:hover{
   .section-heading{
     padding-top: 10px;
     font-size: 2rem;
+    color: var(--secondary-color);
   }
 
   .row {
