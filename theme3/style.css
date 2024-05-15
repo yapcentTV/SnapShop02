@@ -9,8 +9,27 @@
 }
 
   body{
-      background-color: #d7d8da;
+      background-color: var(--primary-color);
       font-family: "Poppins", sans-serif;
+  }
+
+  :root{
+    --primary-color:  #edf2fc;
+    --secondary-color:  #212121;
+  }
+  .dark-theme{
+   --primary-color: #000106;
+    --secondary-color:  #fff;
+  }
+  
+  #icon{
+   object-fit: contain;
+   width: 5vw;
+   height: 5vh;
+   display: flex;
+   margin-left: 15px;
+   cursor: pointer;
+   z-index: 1;
   }
 
   .im{
@@ -264,15 +283,15 @@ nav .right-links i:hover{
 
  .prof{
    width: 400px;
-   background-image: url(../Img/bd.jpg);
+   background-color: var(--primary-color);
    background-position: center;
    background-size: cover;
-   box-shadow: 5px 10px black;
-   border: 1px outset black;
+   box-shadow: 7px 2px var(--secondary-color);
+   border: 1px outset var(--secondary-color);
    padding: 20px;
    border-radius: 15px;
    text-align: center;
-   color: black;
+   color: var(--secondary-color);
  }
 
  .prof h1{
@@ -312,24 +331,24 @@ nav .right-links i:hover{
  .box{
   width: 700px;
   height: 505px;
-  background-image: url(../Img/bd.jpg);
+  background-color: var(--primary-color);
   background-position: center;
   background-size: cover;
-  box-shadow: 5px 10px black;
-  border: 1px outset black;
+  box-shadow: 7px 2px var(--secondary-color);
+  border: 1px outset var(--secondary-color);
   border-radius: 15px;
   text-indent: 3px;
   text-align: left;
-  color: black;
+  color: var(--secondary-color);
 }
 
  .box h2{
-  color: black;
+  color: var(--secondary-color);
   font-size: 2rem;
   font-weight: bolder;
  }
  .box hr{
   height: 5px;
-  background-color: black;
+  background-color: var(--secondary-color);
  }
  
