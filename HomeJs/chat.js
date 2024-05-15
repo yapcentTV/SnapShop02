@@ -19,17 +19,16 @@ for (let i = 0; i < coll.length; i++) {
 
 function getTime() {
     let today = new Date();
-    hours = today.getHours();
-    minutes = today.getMinutes();
+    let hours = today.getHours();
+    let minutes = today.getMinutes();
     ampm = hours >= 12 ? 'pm' : 'am';
 
-    if (hours % 12) {
-        hours = hours ? hours : 12;
-    }
+    hours %= 12;
+    hours = hours || 12;    
+  
+    minutes = minutes < 10 ? `0${minutes}` : minutes;
 
-    minutes = minutes < 10 ? '0'+minutes : minutes;
-
-    let time = hours + ':' + minutes + ' ' + ampm;
+    let time = `${hours}:${minutes} ${ampm}`;
     return time;
 }
 
