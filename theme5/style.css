@@ -290,21 +290,28 @@ nav .right-links i:hover{
     cursor: pointer;
     transition: 0.5s;
   }
-  h3 {
+
+  .column .card h3{
+    padding-top: 20px;
+  }
+
+  h3 a{
+    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    color: #1f194c;
-    margin: 1em 0;
+    color: black;
   }
+
   p {
+    padding-top: 15px;
     color: #575a7b;
-    font-size: 14px;
-    
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1rem;
     text-align: justify;
-    letter-spacing: .5px;
   }
+
   .icon-wrapper {
-    background-color: orangered;
+    background-color: seagreen;
     position: relative;
     margin: auto;
     font-size: 30px;
@@ -321,7 +328,7 @@ nav .right-links i:hover{
   }
   .card:hover .icon-wrapper {
     background-color: #ffffff;
-    color: brown;
+    color: maroon;
   }
   .card:hover h3 {
     color: #ffffff;
