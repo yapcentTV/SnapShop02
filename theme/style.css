@@ -72,15 +72,16 @@ body{
    display: flex;
    position: absolute;
    align-items: center;
-   background-color: black;
+   background-color: white;
+   border: 3px inset darkcyan;
    color: black;
-   padding: 7px;
+   padding: 5px;
    border-radius: 50px;
    z-index: 10;
  }
  .search :is(input, button) {
    background: transparent;
-   color: snow;
+   color: black;
    font-size: 1rem;
    border: none;
    outline: none;
@@ -106,7 +107,7 @@ body{
  ::placeholder {
    font-size: .9rem;
    font-family: "Poppins", sans-serif;
-   color: snow;
+   color: black;
  }
 
  nav {
