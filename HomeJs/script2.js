@@ -40,7 +40,7 @@ let products = [
     },
     {
         id: 5,
-        name: 'Ferm Electric Blower',
+        name: 'FERM Electric Blower',
         image: '5.PNG',
         price: 34399
     },
