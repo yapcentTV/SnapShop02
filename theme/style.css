@@ -11,8 +11,8 @@ html {
 body{
     background-color: var(--primary-color);
     font-family: "Poppins", sans-serif;
-    max-height: 340vh;
-    max-width: 100%;
+    height: max-content;
+    width: 100%;
 }
 
 :root{
