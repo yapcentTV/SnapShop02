@@ -68,7 +68,7 @@ body{
 }
 
 .search {
-   margin-left: 60px;
+   margin-left: 70px;
    display: flex;
    position: absolute;
    align-items: center;
@@ -373,7 +373,7 @@ display: block;
 }
 
 .slide {
-  top: 8vh;
+  top: 8.5vh;
   left: 22vw;
   opacity: 0;
   display: flex;
