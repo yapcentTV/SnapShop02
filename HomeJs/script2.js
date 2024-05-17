@@ -106,9 +106,33 @@ let products = [
     },
     {
         id: 16,
-        name: 'Tomford Men Boxers ',
+        name: 'Tomford Men Boxers',
         image: '16.PNG',
         price: 4299
+    },
+    {
+        id: 17,
+        name: 'UNIQLO Jacket',
+        image: '17.PNG',
+        price: 6499
+    },
+    {
+        id: 18,
+        name: 'Rice Cooker',
+        image: '18.PNG',
+        price: 9499
+    },
+    {
+        id: 19,
+        name: 'Men Casual Shoes',
+        image: '19.PNG',
+        price: 4799
+    },
+    {
+        id: 20,
+        name: 'AquaFlask 40oz',
+        image: '20.PNG',
+        price: 899
     }
 ];
 
