@@ -16,9 +16,9 @@ closeShopping.addEventListener('click', ()=>{
 let products = [
     {
         id: 1,
-        name: 'Calvin Klein Kids Fashion',
+        name: 'Calvin Klein T-Shirt',
         image: '1.PNG',
-        price: 20999
+        price: 1599
     },
     {
         id: 2,
@@ -40,19 +40,19 @@ let products = [
     },
     {
         id: 5,
-        name: 'Electric Blower',
+        name: 'Ferm Electric Blower',
         image: '5.PNG',
         price: 34399
     },
     {
         id: 6,
-        name: 'Kitchen Utensils 35Sets',
+        name: 'Christian Dior Sandals',
         image: '6.PNG',
-        price: 18999
+        price: 17999
     },
     {
         id: 7,
-        name: 'Hair Blower',
+        name: 'Hair Dryer',
         image: '7.PNG',
         price: 12399
     },
@@ -64,27 +64,51 @@ let products = [
     },
     {
         id: 9,
-        name: 'MacBook Air M1 Chip',
+        name: 'MacBook Pro',
         image: '9.PNG',
-        price: 111999
+        price: 70999
     },
     {
         id: 10,
-        name: 'Fujidenzo Refrigerator',
+        name: 'LG Refrigerator',
         image: '10.PNG',
-        price: 10999
+        price: 50999
     },
     {
         id: 11,
-        name: 'Belo Facial Whithening',
+        name: 'Belo Sunscreen',
         image: '11.PNG',
         price: 1299
     },
     {
         id: 12,
-        name: 'Calvin Klein T-Shirt',
+        name: 'Puma Sports Bag',
         image: '12.PNG',
-        price: 999
+        price: 5499
+    },
+    {
+        id: 13,
+        name: 'Addidas Mini Bag',
+        image: '13.PNG',
+        price: 1199
+    },
+    {
+        id: 14,
+        name: 'Cetaphil Baby Lotion',
+        image: '14.PNG',
+        price: 2399
+    },
+    {
+        id: 15,
+        name: 'Kitchen Utensils 8Pcs',
+        image: '15.PNG',
+        price: 7399
+    },
+    {
+        id: 16,
+        name: 'Tomford Men Boxers ',
+        image: '16.PNG',
+        price: 4299
     }
 ];
 
