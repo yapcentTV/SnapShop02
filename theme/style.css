@@ -57,18 +57,17 @@ body{
 }
 
 .pic{
-   margin-top: 5px;
    display: flex;
    z-index: 10;
    filter: contrast(1.2);
    filter: saturate(1);
    cursor: pointer;
    width: 5vw;
-   height: 10.5vh;
+   height: 11vh;
 }
 
 .search {
-   margin-left: 70px;
+   margin: 65px;
    display: flex;
    position: absolute;
    align-items: center;
