@@ -407,7 +407,7 @@ nav .right-links i:hover{
       }
   }
 
-  @media screen and (max-width:930px) {
+  @media screen and (max-width:980px) {
      .hero{
       width: 100%;
       height: 87vh;
@@ -438,7 +438,7 @@ nav .right-links i:hover{
    }
   
  .box{
-  width: 500px;
+  width: 470px;
   height: 505px;
 }
   }
