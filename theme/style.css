@@ -1174,14 +1174,29 @@ nav .left-links i{
 
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:980px) {
   h1#page-logo {
     font-size: 2rem;
   }
   .container{
     font-size: 12px;
   }
- 
+ .search1 {
+    padding: 7px;
+    transform: translate(75%);
+    border: 4px outset darkcyan;
+  }
+  .search1 :is(input, button) {
+    font-size: 1rem;
+  }
+  .search__button1 {
+    width: 2.5vw;
+    height: 3.5vh;
+  }
+  .search__input1::placeholder {
+    font-size: 1rem;
+  }
+}
 }
 @media screen and (max-width:300px) {
 .full-chat-block {
