@@ -161,7 +161,7 @@ font-size: 2rem;
 .carte{
 display: flex;
 position: relative;
-top: 5px;
+top: 7px;
 right: 1%;
 }
 
@@ -258,17 +258,17 @@ display: block;
  }
 
  .sect {
-  top: 20vh;
-  left: 3vw;
+  top: 20%;
+  left: 3%;
   display: flex;
   position: absolute;
 }
 
-.box{
+.sect .box{
   width: 17vw;
   height: 74.5vh;
   border-radius: 20px;
-  box-shadow: 3px 3px 3px 3px;
+  box-shadow: 2px 2px 2px 2px;
   color: var(--secondary-color);
 }
 
@@ -376,7 +376,7 @@ display: block;
   left: 22vw;
   opacity: 0;
   display: flex;
-  position: absolute;
+  position: relative;
   transform: scale(0);
   transition: all 0.7s ease-in-out;
 }
@@ -438,24 +438,71 @@ font-family: "Rukola", sans-serif;
 font-size: 6rem;
 font-weight: bolder;
 text-align:center;
+justify-content: center;
 height: 210px;
 width: 100%;
-display: inline-block;
-position: absolute;
+display: block;
+position: relative;
 text-shadow: 5px 5px var(--secondary-color);
 color: wheat;
-top: 106%;
 bottom:0;
 left:0;
 right:0;
 letter-spacing: 10px;
 margin: 0px;
+margin-top: 5%;
+padding: 30px;
 }
+
 .console-underscore {
 display: inline-block;
 position: relative;
 top: 0%;
 left: 10px;
+}
+
+.search1 {
+  margin-top: 5%;
+  display: flex;
+  position: absolute;
+  transform: translate(70%);
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  border: 5px outset darkcyan;
+  z-index: 10;
+}
+.search1 :is(input, button) {
+  background: transparent;
+  color: black;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+}
+
+.search__input1 {
+  width: 35vw;
+}
+.search__button1 {
+  display: flex;
+  position: relative;
+  place-items: center;
+  width: 3vw;
+  height: 4vh;
+  cursor: pointer;
+  transition: color 0.25s;
+}
+.search__button1:hover {
+  color: gray;
+}
+.search1:focus-within input {
+  width: 35vw;
+}
+.search__input1::placeholder {
+  font-size: .9rem;
+  font-family: "Poppins", sans-serif;
+  color: gray;
 }
 
 h1#page-logo {
@@ -483,7 +530,7 @@ h1#page-logo {
 }
 
 .container{
-margin-top: -8%;
+padding-top: 10%;
 width: 95%;
 transition: 0.5s;
 }
@@ -515,7 +562,7 @@ color: snow;
 cursor: pointer;
 position: absolute;
 top: -5px;
-left: 90%;
+left: 100%;
 padding: 3px 10px;
 }
 .list{
@@ -545,7 +592,7 @@ margin: 10px;
 }
 .list .item button{
 border-radius: 5px 5px 5px 5px;
-background-color: #faedcb94;
+background-color: #FFF5E0;
 color: black;
 font-weight: bold;
 width: 100%;
@@ -626,9 +673,8 @@ margin: 0 10px;
 }
 
 .board {
-margin-top: 60%;
-width: 100%;
-height: 100vh;
+margin-top: 50%;
+max-width: fit-content;
 display: flex;
 position: relative;
 align-items: center;
@@ -638,6 +684,7 @@ justify-content: center;
 .pro-box {
 height: 450px;
 display: flex;
+position: relative;
 flex-wrap: nowrap;
 justify-content: flex-start;
 }
@@ -790,8 +837,8 @@ padding: 13px;
 width: 300px;
 text-align: left;
 outline: none;
-font-size: 18px;
 font-weight: bolder;
+font-size: 18px;
 border-radius: 10px 10px 0px 0px;
 border: 3px double snow;
 border-bottom: none;
@@ -962,7 +1009,182 @@ color: var(--primary-color);
   justify-content: center;
 }
 
-@media screen and (max-width:600px) {
+/*DESKTOP VIEW*/
+@media screen and (max-width:940px) {
+.head{ padding: 10px;
+}
+.pic{
+  width: 4vw;
+  height: 8vh;
+}
+.search{
+  margin: 40px;
+  padding: 2px;
+}
+.search :is(input, button) {
+  font-size: 10px;
+}
+.search:focus-within input{
+  width: 12vw;
+}
+::placeholder {
+  font-size: 10px;
+}
+}
+
+@media screen and (max-width:930px) {
+  nav .left-links a{
+    font-size: 15px;
+ }
+ nav .left-links a::before{
+  height: 2px;
+}
+nav .left-links i{
+  font-size: 1.2rem;
+}
+ nav .right-links i{
+  font-size: 1.5rem;
+  }
+  .carte{
+    top: 10px;
+    right: 1%;
+    }
+  .tarc{
+    max-width: 10vw;
+    height: 5vh;
+    }
+  .dropdown-content .color-drop i{
+    font-size: 1rem;
+    }
+  .dropdown-content {
+    font-size: 15px;
+    min-width: 100px;
+    }
+}
+@media screen and (max-width:1000px) {
+  .sect {
+    top: 20%;
+  }
+  .sect .box{
+    width: 17vw;
+    height: 60vh;
+  }
+  .sect .box .txt{
+    font-size: 1.1rem;
+  }
+  .sect .box .in{
+    height: 52vh;
+  }
+  .off{
+    top: 6vh;
+    height: 15vh;
+    width: 17vw;
+  }
+  .ouch{
+    top: 18vh;
+    height: 15vh;
+    width: 16vw;
+  }
+  .ment{
+    top: 35vh;
+    height: 23vh;
+    width: 16vw;
+}
+.slides input {
+  top: 65vh;
+}
+.slide img {
+  width: 75vw;
+  height: 60.5vh;
+  }
+  .nav label {
+    top: 5vh;
+    height: 15vh;
+  }
+  .nav .prev {
+    left: 23vw;
+  }
+  .nav .next {
+    left: 82vw;
+  }
+}
+
+@media screen and (max-width:1050px) {
+
+  .console-container {
+    font-size: 4.5rem;
+    height: 190px;
+    top: 90%;
+    }
+    .board {
+      margin-top: 60%;
+      }
+      
+    .pro-box {
+    height: 400px;
+    }
+      .cards {
+      width: 60px;
+      border: 3px outset darkolivegreen;
+      }
+      .cards > .wor > .onic {
+        font-size: 1.3rem;
+        border: 3px inset orangered;
+        height: 40px;
+        width: 30px;
+        }
+        
+        .cards > .wor > .description {
+        width: 400px;
+        }
+        .description p {
+        font-size: 10px;
+        }
+        .description h4 {
+        font-size: 1.3rem;
+        }
+        
+        input:checked + label {
+        width: 320px;
+        }
+        
+        .cards[for="c1"] {
+        background-size: 320px 400px;
+        }
+        .cards[for="c2"] {
+        background-size: 320px 400px;
+        }
+        .cards[for="c3"] {
+        background-size: 320px 400px;
+        }
+        .cards[for="c4"] {
+        background-size: 320px 400px;
+        }
+        .cards[for="c5"] {
+        background-size: 320px 400px;
+        }
+        .cards[for="c6"] {
+        background-size: 320px 400px;
+        }
+        .cards[for="c7"] {
+        background-size: 320px 400px;
+        }
+        .cards[for="c8"] {
+        background-size: 320px 400px;
+        }
+
+}
+
+@media screen and (max-width:1000px) {
+  h1#page-logo {
+    font-size: 2rem;
+  }
+  .container{
+    font-size: 12px;
+  }
+ 
+}
+@media screen and (max-width:300px) {
 .full-chat-block {
     width: 100%;
     border-radius: 0px;
@@ -976,20 +1198,13 @@ color: var(--primary-color);
 .collapsible {
     width: 100%;
     border: 0px;
-    border-top: 3px solid white;
+    border-top: 3px double white;
     border-radius: 0px;
 }
 }
 
-@media only screen and (max-width:767px){
-/*CSS for mobile devices*/
-}
-@media only screen and (min-width:768px)and(max-width:1023px){
-/*CSS for tablet devices*/
-}
-@media only screen and (min-width:1024px)and(max-width:1439px){
-/*CSS for laptop devices*/
-}
-@media only screen and (min-width:1440px){
-/*CSS for desktop devices*/
+@media screen and (max-width:750px) {
+  h3{
+    font-size: 12px;
+  }
 }
