@@ -539,6 +539,60 @@ ul li .active .uil{
     }
 }
 
+/*DESKTOP VIEW*/
+@media screen and (max-width:940px) {
+  .head{ padding: 10px;
+  }
+  .pic{
+    width: 4vw;
+    height: 8vh;
+  }
+  .search{
+    margin: 40px;
+    padding: 2px;
+  }
+  .search :is(input, button) {
+    font-size: 10px;
+  }
+  .search:focus-within input{
+    width: 12vw;
+  }
+  ::placeholder {
+    font-size: 10px;
+  }
+  }
+  
+  @media screen and (max-width:930px) {
+    nav .left-links a{
+      font-size: 15px;
+   }
+   nav .left-links a::before{
+    height: 2px;
+  }
+  nav .left-links i{
+    font-size: 1.2rem;
+  }
+   nav .right-links i{
+    font-size: 1.5rem;
+    }
+    .carte{
+      top: 10px;
+      right: 1%;
+      }
+    .tarc{
+      max-width: 10vw;
+      height: 5vh;
+      }
+    .dropdown-content .color-drop i{
+      font-size: 1rem;
+      }
+    .dropdown-content {
+      font-size: 15px;
+      min-width: 100px;
+      }
+  }
+
+
 @media (max-width:600px) {
     .head .head_1{
         font-size: 24px;
