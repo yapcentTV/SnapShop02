@@ -673,7 +673,7 @@ margin: 0 10px;
 
 .board {
 margin-top: 50%;
-max-width: fit-content;
+width: 100%;
 display: flex;
 position: relative;
 align-items: center;
