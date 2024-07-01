@@ -34,7 +34,7 @@ let products = [
     },
     {
         id: 4,
-        name: 'Whirpool Waching Machine',
+        name: 'Whirpool Washer',
         image: '4.PNG',
         price: 44999
     },
@@ -58,7 +58,7 @@ let products = [
     },
     {
         id: 8,
-        name: 'Samsung Galaxy S23 Ultra',
+        name: 'Galaxy S23 Ultra',
         image: '8.PNG',
         price: 98999
     },
