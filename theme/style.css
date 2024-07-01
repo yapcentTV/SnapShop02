@@ -283,7 +283,7 @@ display: block;
   font-size: 1.5rem;
 }
 .sect .box .in{
-  background-image: url(../Img/gum.jpg);
+  background-image: url(../Img/sum.gif);
   background-position: center;
   background-size: cover;
   border-radius: 0px 0px 20px 20px;
@@ -309,31 +309,14 @@ display: block;
 }
 
 .ouch{
-  top: 23vh;
-  left: .5vw;
+  top: 65vh;
+  bottom: 0;
+  left: 0;
   cursor: pointer;
   align-items: center;
-  height: 20vh;
-  width: 16vw;
-  border-radius: 20px;
-  box-shadow: 2px 2px;
-  color: darkblue;
-  display: flex;
-  position: absolute;
-  filter: contrast(1.2);
-  filter: saturate(1);
-}
-
-.ment{
-  top: 45vh;
-  left: .5vw;
-  cursor: pointer;
-  align-items: center;
-  height: 28vh;
-  width: 16vw;
-  border-radius: 25% 10%;
-  box-shadow: 2px 2px;
-  color: darkgoldenrod;
+  object-fit: cover;
+  height: 8vh;
+  width: 17vw;
   display: flex;
   position: absolute;
   filter: contrast(1.2);
@@ -451,6 +434,7 @@ right:0;
 letter-spacing: 10px;
 margin: 0px;
 margin-top: 5%;
+padding: 30px;
 }
 
 .console-underscore {
@@ -1080,15 +1064,9 @@ nav .left-links i{
     width: 17vw;
   }
   .ouch{
-    top: 18vh;
-    height: 15vh;
-    width: 16vw;
+    top: 52.5vh;
+    height: 7vh;
   }
-  .ment{
-    top: 35vh;
-    height: 23vh;
-    width: 16vw;
-}
 .slides input {
   top: 65vh;
 }
@@ -1181,7 +1159,7 @@ nav .left-links i{
   .container{
     font-size: 12px;
   }
- .search1 {
+  .search1 {
     padding: 7px;
     transform: translate(75%);
     border: 4px outset darkcyan;
@@ -1196,7 +1174,6 @@ nav .left-links i{
   .search__input1::placeholder {
     font-size: 1rem;
   }
-}
 }
 @media screen and (max-width:300px) {
 .full-chat-block {
