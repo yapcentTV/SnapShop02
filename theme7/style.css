@@ -421,7 +421,7 @@ nav .right-links i:hover{
     transition: 0.3s;
     height: 13px;
     background-color: var(--secondary-color);
-    border-radius: 50%;
+    border-radius: 25%;
     top: 50%;
     transform: translateY(-50%);
   }
